@@ -7,4 +7,29 @@ body {
 		color: rgb(165, 111, 11);
 		margin: 0 0 10px 0;
 	}
+
+	.flashcards {
+		background: #393939;
+		padding: 10px;
+
+		.flashcard {
+			margin: 0 0 20px 0;
+			font-size: .8rem;
+
+			.front {
+				font-weight: bold;
+				.category {
+					color: white;
+				}
+			}
+
+			.back {
+				background: #111;
+				color: yellow;
+				font-family: 'Courier New', Courier, monospace;
+				font-size: .7rem;
+				padding: 3px;
+			}
+		}
+	}
 }
