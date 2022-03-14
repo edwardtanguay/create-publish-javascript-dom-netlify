@@ -1,1 +1,3 @@
-export const message = 'test';
+export const sentencize = (text) => {
+	return 'sent: ' + text;
+}
